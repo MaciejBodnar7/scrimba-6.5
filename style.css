@@ -81,3 +81,19 @@ nav a:focus {
   /* zmiana koloru zeby nie podswietlalo obecnej strony na ktorej jestesmy */
   color: #707070;
 }
+
+@media (max-width: 675px) {
+  .container-nav {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .site-title {
+    margin: 0 auto;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  nav li {
+    margin: 0 1em;
+  }
+}
