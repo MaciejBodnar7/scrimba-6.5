@@ -82,6 +82,10 @@ nav a:focus {
   color: #707070;
 }
 
+/* ====================
+  mediaqueries
+  =================== */
+
 @media (max-width: 675px) {
   .container-nav {
     justify-content: center;
@@ -95,5 +99,25 @@ nav a:focus {
   }
   nav li {
     margin: 0 1em;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-nav {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .site-title {
+    margin: 0 auto;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  nav li {
+    margin: 0.75em 0;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
 }
